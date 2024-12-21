@@ -8,4 +8,50 @@
 
 html {
 	background: #000;
+	color: #ffff;
+}
+:root {
+	--subtle-black: #fafafa08;
+	--border-outline: #fafafa0d;
+	--dim-text: #fafafa80;
+	--dim-background: #fafafa05;
+	--orange-color: rgb(252, 125, 34);
+}
+nav {
+	background: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 8px 32px 0 rgba(251, 137, 55, 0.21);
+	backdrop-filter: blur(2.5px);
+	-webkit-backdrop-filter: blur(2.5px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+nav ul li a {
+	margin: 0 15px;
+	color: var(--dim-text);
+	transition: 0.4s ease;
+}
+nav ul li a:hover {
+	color: white;
+}
+#mobile-menu a {
+	margin: 10px 20px;
+	color: var(--dim-text);
+	transition: 0.4s ease;
+}
+#mobile-menu a:hover {
+	color: white;
+}
+.classic-btn {
+	color: var(--dim-text);
+	background: var(--dim-background);
+	padding: 8px 15px;
+	border: 1.5px solid var(--border-outline);
+	border-radius: 4px;
+	font-weight: 500;
+	transition: 0.5s ease;
+}
+.classic-btn:hover {
+	color: white;
+	background: var(--orange-color);
+	font-weight: 500;
 }

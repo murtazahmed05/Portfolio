@@ -17,8 +17,40 @@
 		<title>Portfolio</title>
 	</head>
 	<body>
-		<div>
-			<h1 class="text-2xl text-white text-center p-10">Project is Initialized</h1>
-		</div>
+		<header class="md:mx-36 mx-5 my-5">
+			<nav class="flex justify-between items-center py-4 px-7  rounded-lg ">
+				<!-- Brand Name or Logo -->
+				<h1 class="cursor-pointer font-bold">Brand</h1>
+
+				<!-- Navigation Links -->
+				<ul class="lg:flex hidden ">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Servics</a></li>
+					<li><a href="#">Project</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+
+				<a class="classic-btn hidden md:inline-block" href="#">Get in Touch</a>
+
+				<!-- Toggle Button -->
+				<div class="md:hidden flex items-center">
+					<button id="menu-toggle" class="text-2xl text-white">
+						<span id="hamburger-icon">&#9776;</span>
+						<span id="close-icon" class="hidden">&#10005;</span>
+					</button>
+				</div>
+			</nav>
+
+			<!-- Mobile Dropdown -->
+			<div id="mobile-menu" class="hidden md:hidden flex flex-col space-y-4 mt-3 text-center">
+				<a href="#" class="text-lg">Home</a>
+				<a href="#" class="text-lg">About</a>
+				<a href="#" class="text-lg">Services</a>
+				<a href="#" class="text-lg">Project</a>
+				<a href="#" class="text-lg">Contact</a>
+				<a class="classic-btn" href="#">Get in Touch</a>
+			</div>
+		</header>
 	</body>
 </html>
