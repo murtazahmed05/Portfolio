@@ -44,7 +44,7 @@ nav ul li a:hover {
 .classic-btn {
 	color: var(--dim-text);
 	background: var(--dim-background);
-	padding: 8px 15px;
+	padding: 5px 15px;
 	border: 1.5px solid var(--border-outline);
 	border-radius: 4px;
 	font-weight: 500;
