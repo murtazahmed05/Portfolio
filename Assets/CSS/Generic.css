@@ -13,6 +13,12 @@
 html {
 	background: #000;
 	color: #ffff;
+	display: flex;
+	justify-content: center;
+}
+
+body {
+	max-width: 1400px;
 }
 :root {
 	--subtle-black: #fafafa08;

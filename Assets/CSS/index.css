@@ -31,3 +31,55 @@
 	font-size: 22px;
 	font-weight: bold;
 }
+
+.project-box {
+	border: 2px solid #fafafa0d;
+	border-radius: 5px;
+}
+
+.project-box i {
+	border: 1.5px solid #fafafa27;
+	padding: 15px;
+	border-radius: 50%;
+	transform: rotate(320deg);
+	transition: all 0.5s ease;
+	cursor: pointer;
+}
+
+.project-box i:hover {
+	background: rgb(252, 125, 34);
+	transform: rotate(0);
+}
+
+.project-box img {
+	filter: grayscale(1) contrast(1.2) blur(1.5px);
+	transform: scale(1.02);
+	transition: 0.3s all ease-out;
+}
+.project-box img:hover {
+	filter: none;
+	transform: scale(1);
+}
+
+.lets-talk {
+	border: 2px solid #fafafa0d;
+	border-radius: 5px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+.lets-talk:hover {
+	background: rgb(252, 125, 34);
+	letter-spacing: 2px;
+}
+
+#project-2 {
+	width: 48%;
+}
+
+.mini-box {
+	width: 22.5rem;
+}

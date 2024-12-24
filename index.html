@@ -2,7 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
 		<!-- CSS Linked -->
 		<link rel="stylesheet" href="./Assets/CSS/index.css" />
 		<link rel="stylesheet" href="./Assets/CSS/Generic.css" />
@@ -30,9 +33,9 @@
 				<!-- Navigation Links -->
 				<ul class="lg:flex hidden ">
 					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
+					<li><a href="#Projects">Project</a></li>
 					<li><a href="#">Servics</a></li>
-					<li><a href="#">Project</a></li>
+					<li><a href="#">About</a></li>
 					<li><a href="#">Contact</a></li>
 				</ul>
 
@@ -41,7 +44,7 @@
 				<!-- Toggle Button -->
 				<div class="md:hidden flex items-center">
 					<button id="menu-toggle" class="text-2xl text-white">
-						<span class="" id="hamburger-icon">&#9776;</span>
+						<span id="hamburger-icon">&#9776;</span>
 						<span id="close-icon" class="hidden">&#10005;</span>
 					</button>
 				</div>
@@ -122,5 +125,57 @@
 				</div>
 			</div>
 		</section>
+		<section id="Projects" class="md:mx-36">
+			<div class="flex flex-wrap justify-between gap-4">
+				<div class="project-box w-1/2 ">
+					<div class="flex justify-between items-center p-7 pb-0">
+						<h3 class="font-bold">Project Title</h3>
+						<i class="fa-solid fa-arrow-right"></i>
+					</div>
+					<div class="p-5 m-2">
+						<img class="h-96 w-full object-cover rounded-lg" src="Assets/Media/Project-1.jpg" alt="" />
+					</div>
+				</div>
+				<div id="project-2" class="project-box  ">
+					<div class="flex justify-between items-center p-7 pb-0">
+						<h3 class="font-bold">Project Title</h3>
+						<i class="fa-solid fa-arrow-right"></i>
+					</div>
+					<div class="p-5 m-2">
+						<img class="h-96 w-full object-cover rounded-lg" src="Assets/Media/Project-2.jpg" alt="" />
+					</div>
+				</div>
+				<div class="project-box mini-box">
+					<div class="flex justify-between items-center p-7 pb-0">
+						<h3 class="font-bold">Project Title</h3>
+						<i class="fa-solid fa-arrow-right"></i>
+					</div>
+					<div class="p-5 m-2">
+						<img class="h-80 w-full object-cover rounded-lg" src="Assets/Media/Project-3.jpg" alt="" />
+					</div>
+				</div>
+				<div class="project-box mini-box">
+					<div class="flex justify-between items-center p-7 pb-0">
+						<h3 class="font-bold">Project Title</h3>
+						<i class="fa-solid fa-arrow-right"></i>
+					</div>
+					<div class="p-5 m-2">
+						<img class="h-80 w-full object-cover rounded-lg" src="Assets/Media/Project-4.jpg" alt="" />
+					</div>
+				</div>
+				<div class="project-box mini-box">
+					<div class="flex justify-between items-center p-7 pb-0">
+						<h3 class="font-bold">Project Title</h3>
+						<i class="fa-solid fa-arrow-right"></i>
+					</div>
+					<div class="p-5 m-2">
+						<img class="h-80 w-full object-cover rounded-lg" src="Assets/Media/Project-5.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="lets-talk md:mx-36 my-7 flex justify-center items-center p-5">
+			<h1>Lets Talk!</h1>
+		</div>
 	</body>
 </html>
