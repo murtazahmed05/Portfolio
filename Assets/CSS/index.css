@@ -20,3 +20,13 @@
 	background: #fafafa15;
 	padding: 30px 5px;
 }
+
+.wrapper .item:nth-child(odd) {
+	color: rgb(252, 125, 34);
+}
+
+.item {
+	color: #fafafa80;
+	font-size: 20px;
+	font-weight: bold;
+}
