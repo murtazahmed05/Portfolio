@@ -44,7 +44,7 @@ nav ul li a:hover {
 .classic-btn {
 	color: var(--dim-text);
 	background: var(--dim-background);
-	padding: 5px 15px;
+	padding: 7px 15px;
 	border: 1.5px solid var(--border-outline);
 	border-radius: 4px;
 	font-weight: 500;
@@ -54,4 +54,9 @@ nav ul li a:hover {
 	color: white;
 	background: var(--orange-color);
 	font-weight: 500;
+}
+
+.border-outline {
+	border: 2px solid #fafafa0d;
+	border-radius: 10px;
 }
