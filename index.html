@@ -6,6 +6,7 @@
 		<!-- CSS Linked -->
 		<link rel="stylesheet" href="./Assets/CSS/index.css" />
 		<link rel="stylesheet" href="./Assets/CSS/Generic.css" />
+		<link rel="stylesheet" href="./Assets/CSS/Responsive.css" />
 		<!-- Tailwind Linked -->
 		<link
 			href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
@@ -24,7 +25,7 @@
 		<header class="md:mx-36 mx-5 my-5">
 			<nav class="flex justify-between items-center py-4 px-7  rounded-lg ">
 				<!-- Brand Name or Logo -->
-				<h1 class="cursor-pointer font-bold">Brand</h1>
+				<h1 class="cursor-pointer font-bold">MA</h1>
 
 				<!-- Navigation Links -->
 				<ul class="lg:flex hidden ">
@@ -40,14 +41,14 @@
 				<!-- Toggle Button -->
 				<div class="md:hidden flex items-center">
 					<button id="menu-toggle" class="text-2xl text-white">
-						<span id="hamburger-icon">&#9776;</span>
+						<span class="" id="hamburger-icon">&#9776;</span>
 						<span id="close-icon" class="hidden">&#10005;</span>
 					</button>
 				</div>
 			</nav>
 
 			<!-- Mobile Dropdown -->
-			<div id="mobile-menu" class="hidden md:hidden flex flex-col space-y-4 mt-3 text-center">
+			<div id="mobile-menu" class="hidden flex flex-col space-y-4 mt-3 text-center">
 				<a href="#" class="text-lg">Home</a>
 				<a href="#" class="text-lg">About</a>
 				<a href="#" class="text-lg">Services</a>
@@ -57,25 +58,27 @@
 			</div>
 		</header>
 		<section id="Hero" class="md:mx-36 mx-5 my-7">
-			<div class="profile-card border-outline p-5 flex flex-col justify-around row-span-2 ">
+			<div
+				class="profile-card border-outline p-2 md:p-4 flex flex-col justify-around row-span-2 md:text-left text-center"
+			>
 				<img
-					class="w-full h-3/5 object-cover rounded-lg"
+					class="w-full md:h-4/6  object-cover rounded-lg"
 					src="./Assets/Media/pfp-murtaz.jpg"
 					alt="Profile"
 				/>
-				<h2 class="text-2xl font-bold">Murtaz Ahmed</h2>
-				<p>
+				<h2 class="text-2xl font-bold md:m-0 my-4 ">Murtaz Ahmed</h2>
+				<p class="mb-5 md:mb-3">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, voluptatibus? lorem Lorem
 					ipsum dolor sit amet.
 				</p>
-				<div class="profile-btns">
-					<a class="classic-btn mr-4" href="#">Book a Call</a>
+				<div class="profile-btns md:m-0 mb-2">
+					<a class="classic-btn md:mr-4 m-0 mb-3" href="#">Book a Call</a>
 					<a class="classic-btn" href="#">Get in Touch</a>
 				</div>
 			</div>
 			<div class="profile-skiils border-outline">
-				<h2 class="text-2xl font-bold p-4 mt-4">Full Stack Developer</h2>
-				<div class="Skills p-4 grid">
+				<h2 class="text-2xl font-bold p-4 md:mt-4 text-center md:text-left">Full Stack Developer</h2>
+				<div class="Skills p-4 md:grid flex flex-col">
 					<div class="skill-box">
 						<i class="fa-brands fa-html5 text-3xl"></i>
 						<p>HTML</p>
@@ -108,7 +111,7 @@
 					et, accusamus alias suscipit nam repudiandae quisquam libero? Numquam sed iure quasi incidunt
 					pariatur provident dolor.
 				</p>
-				<div class="service-slider mt-7 mx-5 overflow-hidden relative">
+				<div class="service-slider mt-6 mx-5 mb-2 overflow-hidden relative">
 					<div class="wrapper flex gap-10 whitespace-nowrap">
 						<span class="item">Responsive Design</span>
 						<span class="item">Clean Code</span>

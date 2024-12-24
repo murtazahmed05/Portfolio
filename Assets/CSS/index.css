@@ -19,6 +19,7 @@
 	border-radius: 5px;
 	background: #fafafa15;
 	padding: 30px 5px;
+	cursor: pointer;
 }
 
 .wrapper .item:nth-child(odd) {
@@ -27,6 +28,6 @@
 
 .item {
 	color: #fafafa80;
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: bold;
 }
