@@ -83,3 +83,38 @@
 .mini-box {
 	width: 22.5rem;
 }
+
+.service-box {
+	background: #fafafa15;
+	transition: 0.3s ease;
+}
+.service-box:hover {
+	background: #fafafa1f;
+}
+.service-box:hover .service-title {
+	color: rgb(252, 125, 34);
+}
+
+.service-details li {
+	width: 45%;
+	margin-bottom: 7px;
+	display: flex;
+	align-items: center;
+}
+
+.service-details li i {
+	padding: 7px;
+	font-size: 10px;
+	margin-right: 10px;
+	border: 1px solid #fafafa27;
+	border-radius: 50%;
+	transition: 0.2s ease;
+}
+
+.service-details li:hover i {
+	background: rgb(252, 125, 34);
+}
+
+.w-48p {
+	width: 48%;
+}
