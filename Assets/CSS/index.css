@@ -1,3 +1,5 @@
+@import "./Generic.css";
+
 #Hero {
 	display: grid;
 	grid-template-columns: 40% 58%;
@@ -15,15 +17,15 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	border: 2px solid #fafafa0d;
+	border: 2px solid var(--border-outline);
 	border-radius: 5px;
-	background: #fafafa15;
+	background: var(--dim-background);
 	padding: 30px 5px;
 	cursor: pointer;
 }
 
 .wrapper .item:nth-child(odd) {
-	color: rgb(252, 125, 34);
+	color: var(--orange-color);
 }
 
 .item {
@@ -33,12 +35,12 @@
 }
 
 .project-box {
-	border: 2px solid #fafafa0d;
+	border: 2px solid var(--border-outline);
 	border-radius: 5px;
 }
 
 .project-box i {
-	border: 1.5px solid #fafafa27;
+	border: 1.5px solid var(--border-outline);
 	padding: 15px;
 	border-radius: 50%;
 	transform: rotate(320deg);
@@ -47,7 +49,7 @@
 }
 
 .project-box i:hover {
-	background: rgb(252, 125, 34);
+	background: var(--orange-color);
 	transform: rotate(0);
 }
 
@@ -61,38 +63,19 @@
 	transform: scale(1);
 }
 
-.lets-talk {
-	border: 2px solid #fafafa0d;
-	border-radius: 5px;
-	font-weight: bold;
-	letter-spacing: 5px;
-	text-transform: uppercase;
-	transition: all 0.3s ease;
-	cursor: pointer;
-}
-
-.lets-talk:hover {
-	background: rgb(252, 125, 34);
-	letter-spacing: 2px;
-}
-
-#project-2 {
-	width: 48%;
-}
-
 .mini-box {
 	width: 22.5rem;
 }
 
 .service-box {
-	background: #fafafa15;
+	background: var(--dim-background);
 	transition: 0.3s ease;
 }
 .service-box:hover {
-	background: #fafafa1f;
+	background: #fafafa1d;
 }
 .service-box:hover .service-title {
-	color: rgb(252, 125, 34);
+	color: var(--orange-color);
 }
 
 .service-details li {
@@ -106,15 +89,39 @@
 	padding: 7px;
 	font-size: 10px;
 	margin-right: 10px;
-	border: 1px solid #fafafa27;
+	border: 1px solid var(--border-outline);
 	border-radius: 50%;
 	transition: 0.2s ease;
 }
 
 .service-details li:hover i {
-	background: rgb(252, 125, 34);
+	background: var(--orange-color);
 }
 
-.w-48p {
-	width: 48%;
+.social-container p {
+	transition: 0.3s ease;
+}
+
+.social-container a:hover p {
+	transform: translate(0px, -70px);
+}
+
+.social-container a:hover i {
+	display: block;
+	text-align: center;
+	transform: translate(0px, 0px);
+}
+
+.social-container i {
+	z-index: -1;
+	position: absolute;
+	transform: translate(0px, 70px);
+	transition: 0.3s ease;
+}
+
+.social-box {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
