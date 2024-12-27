@@ -15,10 +15,12 @@ html {
 	color: #ffff;
 	display: flex;
 	justify-content: center;
+	scroll-behavior: smooth;
 }
 
 body {
-	max-width: 100%;
+	width: 100%;
+	max-width: 1400px;
 }
 :root {
 	--subtle-black: #fafafa08;
@@ -27,10 +29,11 @@ body {
 	--dim-background: #fafafa15;
 	--orange-color: rgb(252, 125, 34);
 }
+
 nav {
 	background: rgba(255, 255, 255, 0.05);
 	box-shadow: 0 8px 32px 0 rgba(251, 137, 55, 0.21);
-	backdrop-filter: blur(2.5px);
+	backdrop-filter: blur(3.5px);
 	-webkit-backdrop-filter: blur(2.5px);
 	border-radius: 10px;
 	border: 1px solid rgba(255, 255, 255, 0.18);
@@ -54,7 +57,7 @@ nav ul li a:hover {
 .classic-btn {
 	color: var(--dim-text);
 	background: var(--dim-background);
-	padding: 7px 15px;
+	padding: 8px 15px;
 	border: 1.5px solid var(--border-outline);
 	border-radius: 4px;
 	font-weight: 500;
@@ -69,10 +72,6 @@ nav ul li a:hover {
 .border-outline {
 	border: 2px solid #fafafa0d;
 	border-radius: 10px;
-}
-
-.w-48p {
-	width: 30rem;
 }
 
 footer {

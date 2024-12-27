@@ -8,6 +8,12 @@
 		flex-direction: column;
 		width: 100%;
 	}
+	.skill-box {
+		padding: 20px 5px;
+	}
+	.service-box {
+		width: 100% !important;
+	}
 }
 
 @media (min-width: 640px) and (max-width: 1024px) {

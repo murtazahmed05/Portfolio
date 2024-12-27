@@ -32,7 +32,7 @@
 
 				<!-- Navigation Links -->
 				<ul class="lg:flex hidden ">
-					<li><a href="#">Home</a></li>
+					<li><a href="#Hero">Home</a></li>
 					<li><a href="#Projects">Project</a></li>
 					<li><a href="#services">Servics</a></li>
 					<li><a href="#social-links">Contact</a></li>
@@ -51,11 +51,10 @@
 
 			<!-- Mobile Dropdown -->
 			<div id="mobile-menu" class="hidden flex flex-col space-y-4 mt-3 text-center">
-				<a href="#" class="text-lg">Home</a>
-				<a href="#" class="text-lg">About</a>
-				<a href="#" class="text-lg">Services</a>
-				<a href="#" class="text-lg">Project</a>
-				<a href="#" class="text-lg">Contact</a>
+				<a href="#Hero" class="text-lg">Home</a>
+				<a href="#Projects" class="text-lg">Project</a>
+				<a href="#services" class="text-lg">Services</a>
+				<a href="#social-links" class="text-lg">Contact</a>
 				<a class="classic-btn" href="#">Get in Touch</a>
 			</div>
 		</header>
@@ -69,51 +68,51 @@
 					alt="Profile"
 				/>
 				<h2 class="text-2xl font-bold md:m-0 my-4 ">Murtaz Ahmed</h2>
-				<p class="mb-5 md:mb-3">
+				<p class="mb-6 md:mb-5 md:p-0">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, voluptatibus? lorem Lorem
 					ipsum dolor sit amet.
 				</p>
 				<div class="profile-btns md:m-0 mb-2">
-					<a class="classic-btn md:mr-4 m-0 mb-3" href="#">Book a Call</a>
+					<a class="classic-btn md:mr-4 mb-3" href="#">Book a Call</a>
 					<a class="classic-btn" href="#">Get in Touch</a>
 				</div>
 			</div>
 			<div class="profile-skiils border-outline">
 				<h2 class="text-2xl font-bold p-4 md:mt-4 text-center md:text-left">Full Stack Developer</h2>
-				<div class="Skills p-4 md:grid flex flex-col">
+				<div class="Skills p-4 grid grid-cols-2 md:grid-cols-3">
 					<div class="skill-box">
-						<i class="fa-brands fa-html5 text-3xl"></i>
+						<i class="fa-brands fa-html5 text-3xl mb-2"></i>
 						<p>HTML</p>
 					</div>
 					<div class="skill-box">
-						<i class="fa-brands fa-css3-alt text-3xl"></i>
+						<i class="fa-brands fa-css3-alt text-3xl mb-2"></i>
 						<p>CSS</p>
 					</div>
 					<div class="skill-box">
-						<i class="fa-brands fa-js text-3xl"></i>
+						<i class="fa-brands fa-js text-3xl mb-2"></i>
 						<p>JavaScript</p>
 					</div>
 					<div class="skill-box">
-						<i class="fa-brands fa-react text-3xl"></i>
+						<i class="fa-brands fa-react text-3xl mb-2"></i>
 						<p>React</p>
 					</div>
 					<div class="skill-box">
-						<i class="fa-brands fa-node-js text-3xl"></i>
+						<i class="fa-brands fa-node-js text-3xl mb-2"></i>
 						<p>NodeJS</p>
 					</div>
 					<div class="skill-box">
-						<i class="fa-solid fa-database text-3xl"></i>
+						<i class="fa-solid fa-database text-3xl mb-2"></i>
 						<p>MongoDB</p>
 					</div>
 				</div>
 			</div>
-			<div class="profile-details border-outline">
+			<div class="profile-details flex flex-col justify-between border-outline">
 				<p class="p-4">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quis similique magni vitae totam
 					et, accusamus alias suscipit nam repudiandae quisquam libero? Numquam sed iure quasi incidunt
 					pariatur provident dolor.
 				</p>
-				<div class="service-slider mt-6 mx-5 mb-2 overflow-hidden relative">
+				<div class="service-slider mt-6 mx-5 md:mb-7 mb-2 overflow-hidden relative">
 					<div class="wrapper flex gap-10 whitespace-nowrap">
 						<span class="item">Responsive Design</span>
 						<span class="item">Clean Code</span>
@@ -125,8 +124,8 @@
 			</div>
 		</section>
 		<section id="Projects" class="md:mx-36">
-			<div class="flex flex-wrap md:flex-row sm:flex-col sm:justify-center justify-center gap-4">
-				<div class="project-box w-full md:w-1/2 ">
+			<div class="flex flex-col md:grid grid-cols-3 grid-rows-2 justify-center gap-4">
+				<div class="project-box w-full col-span-2">
 					<div class="flex justify-between items-center p-7 pb-0">
 						<h3 class="font-bold">Project Title</h3>
 						<i class="fa-solid fa-arrow-right"></i>
@@ -135,7 +134,7 @@
 						<img class="h-96 w-full object-cover rounded-lg" src="Assets/Media/Project-1.jpg" alt="" />
 					</div>
 				</div>
-				<div class="project-box w-48p ">
+				<div class="project-box">
 					<div class="flex justify-between items-center p-7 pb-0">
 						<h3 class="font-bold">Project Title</h3>
 						<i class="fa-solid fa-arrow-right"></i>
@@ -144,7 +143,7 @@
 						<img class="h-96 w-full object-cover rounded-lg" src="Assets/Media/Project-2.jpg" alt="" />
 					</div>
 				</div>
-				<div class="project-box mini-box">
+				<div class="project-box">
 					<div class="flex justify-between items-center p-7 pb-0">
 						<h3 class="font-bold">Project Title</h3>
 						<i class="fa-solid fa-arrow-right"></i>
@@ -153,7 +152,7 @@
 						<img class="h-80 w-full object-cover rounded-lg" src="Assets/Media/Project-3.jpg" alt="" />
 					</div>
 				</div>
-				<div class="project-box mini-box">
+				<div class="project-box">
 					<div class="flex justify-between items-center p-7 pb-0">
 						<h3 class="font-bold">Project Title</h3>
 						<i class="fa-solid fa-arrow-right"></i>
@@ -162,7 +161,7 @@
 						<img class="h-80 w-full object-cover rounded-lg" src="Assets/Media/Project-4.jpg" alt="" />
 					</div>
 				</div>
-				<div class="project-box mini-box">
+				<div class="project-box">
 					<div class="flex justify-between items-center p-7 pb-0">
 						<h3 class="font-bold">Project Title</h3>
 						<i class="fa-solid fa-arrow-right"></i>
@@ -176,7 +175,7 @@
 		<section id="services" class="md:mx-36 border-outline p-4 mt-5">
 			<h1 class="p-4 mb-2 text-2xl font-bold">Services</h1>
 			<div class="service-container flex flex-wrap gap-4 justify-center">
-				<div class="service-box w-full md:w-1/2 p-6 border-outline">
+				<div class="service-box w-full p-6 border-outline">
 					<div class="flex justify-between items-center service-title">
 						<h4 class="md:text-2xl text-xl font-bold my-4">Dynamic Landing Page Website</h4>
 						<i class="fa-solid fa-wand-magic-sparkles text-2xl"></i>
@@ -205,7 +204,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="service-box w-48p p-6 border-outline ">
+				<div class="service-box p-6 border-outline ">
 					<div class="flex justify-between items-center service-title">
 						<h4 class="md:text-2xl text-xl font-bold my-4">WordPress Custom Website</h4>
 						<i class="fa-brands fa-wordpress text-2xl"></i>
@@ -234,7 +233,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="service-box w-48p p-6 border-outline">
+				<div class="service-box p-6 border-outline">
 					<div class="flex justify-between items-center service-title">
 						<h4 class="md:text-2xl text-xl font-bold my-4">Customized MERN Stack Website</h4>
 						<i class="fa-solid fa-layer-group text-2xl"></i>
@@ -263,7 +262,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="service-box w-full md:w-1/2 p-6 border-outline">
+				<div class="service-box w-full p-6 border-outline">
 					<div class="flex justify-between items-center service-title">
 						<h4 class="md:text-2xl text-xl font-bold my-4">Cross Functional Mobile App</h4>
 						<i class="fa-solid fa-rocket text-2xl"></i>
@@ -314,7 +313,7 @@
 				</a>
 			</div>
 		</section>
-		<footer class="md:mx-36 flex flex-col items-center text-center mb-6 mt-10 px-10">
+		<footer class="md:mx-36 flex flex-col items-center text-center mb-6 mt-10 px-2">
 			<h1 class="">Murtaz Ahmed</h1>
 			<p>Portfolio Website. All rights reserved.2025</p>
 		</footer>

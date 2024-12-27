@@ -63,11 +63,8 @@
 	transform: scale(1);
 }
 
-.mini-box {
-	width: 22.5rem;
-}
-
 .service-box {
+	width: 48% !important;
 	background: var(--dim-background);
 	transition: 0.3s ease;
 }
