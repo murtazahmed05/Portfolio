@@ -21,12 +21,13 @@ html {
 body {
 	width: 100%;
 	max-width: 1400px;
+	overflow-x: hidden;
 }
 :root {
 	--subtle-black: #fafafa08;
 	--border-outline: #fafafa0d;
 	--dim-text: #fafafa80;
-	--dim-background: #fafafa15;
+	--dim-background: #fafafa10;
 	--orange-color: rgb(252, 125, 34);
 }
 

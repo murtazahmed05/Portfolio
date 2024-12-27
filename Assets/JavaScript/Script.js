@@ -28,4 +28,27 @@ document.addEventListener("DOMContentLoaded", () => {
 			gsap.set(wrapper, { x: 0 });
 		},
 	});
+	gsap.from("html", {
+		scale: 7,
+		duration: 6,
+	});
+
+	gsap.from("nav", {
+		y: -400,
+		duration: 8,
+		Opacity: 0,
+	});
+
+	gsap.from(".profile-card", {
+		duration: 7,
+		Opacity: 0,
+	});
+	gsap.from(".profile-details", {
+		duration: 7,
+		Opacity: 0,
+	});
+	gsap.from(".profile-skills", {
+		duration: 7,
+		Opacity: 0,
+	});
 });
